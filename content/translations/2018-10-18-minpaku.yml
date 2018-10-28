@@ -1,0 +1,52 @@
+original:
+  lang: ja
+  source: NHK NEWS WEB EASY
+  url: "https://www3.nhk.or.jp/news/easy/k10011674031000/k10011674031000.html"
+  title: 「民泊」で泊まった人の８０％以上が旅行に来た外国人
+  desc:
+  date: 2018-10-18T11:30+0900
+  author:
+translation:
+  lang: en-GB
+  title: Over 90% of people staying in minpaku (民泊) are foreigners on holiday
+  desc:
+  date: 2018-10-19T21:16:02+0200
+  author: raehik
+general-notes:
+  - wondering if "vacation" is too American...
+paragraphs:
+  - original: |
+      「民泊」は、旅行に来た人などにホテルではない家やマンションの部屋を貸すことです。今年６月１５日、民泊の仕事をするときのルールを決めた新しい法律が始まりました。
+    translation: |
+      "Minpaku" is where a person vacationing or similar stays in a room of a
+      house or apartment instead of a hotel. On June 15th, rules were decided on
+      for people leasing minpaku, and new lwas were put in place.
+
+  - original: |
+      国によると、６月１５日から７月３１日までに民泊の部屋に泊まった人は約８万３０００人いました。この中の８０％以上は旅行に来た外国人でした。
+    translation: |
+      According to the country, the number of people who stayed in a minpaku
+      from June 15th to July 31st was around 83000. Of these, over 80% were
+      foreigners on holiday.
+    notes:
+      - "\"the country\" highly simplified JP"
+
+  - original: |
+      いちばん多かったのは中国人で約１万７０００人でした。次は韓国人で約１万８００人でした。東アジアの人が大勢泊まっていました。
+    translation: |
+      The largest group was Chinese, at around 17000 people. Next was Koreans at
+      around 10800 people. A large amount of people from east Asia stayed.
+
+  - original: |
+      泊まった場所でいちばん多かったのは北海道、次は東京都で、この２つの場所で６０％以上になりました。しかし、東北や四国などの１３の県では泊まった人が１００人より少なかったことがわかりました。
+    translation: |
+      The places most stayed in were Hokkaido followed by Tokyo, these two
+      places taking up over 60% [of the overall amount of overnight visitors].
+      However, in 13 prefectures including Tohoku and Shikoku, it was learned
+      there were less than 100 people staying there.
+
+  - original: |
+      国は旅行に来る外国人が増えているため、もっと民泊を利用しやすくしたいと言っています。
+    translation: |
+      The country has said that in order to raise the number of foreigners
+      coming for holidays, they want to make using minpaku easier.

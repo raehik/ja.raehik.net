@@ -1,0 +1,62 @@
+original:
+  lang: ja
+  source: NHK NEWS WEB EASY
+  url: "https://www3.nhk.or.jp/news/easy/k10011674031000/k10011674031000.html"
+  title: カナダ　法律が変わって大麻を使ってもいいことになる
+  desc:
+  date: 2018-10-18T16:20+0900
+  author:
+translation:
+  lang: en-GB
+  title: "Canada: Law change legalises usage of marijuana"
+  desc:
+  date: 2018-10-18T20:14:04+0200
+  author: raehik
+general-notes:
+  - 作る = make, create -> grow (they simplified it)
+  - generally used a bit more varied vocab than the original
+paragraphs:
+    - original: |
+        カナダでは法律が変わって、１７日から、大麻（マリファナ）を作ったり使ったりすることができるようになりました。１７日は大麻を買うために大勢の人が並んだ店もありました。
+      translation: |
+        Since the 17th in Canada, growing and using marijuana was made legal.
+        And on the 17th, there were stores with many people lined up hoping to
+        buy.
+      notes:
+        - bit casual on 2nd sentence, to fit the topic & language
+
+    - original: |
+        大麻は、政府が許可した場所で作ったり売ったりします。大麻を持つことができるのは１人３０ｇまでです。年齢の決まりは州で違っていて、１８歳か１９歳からです。
+      translation: |
+        The government has approved certain places to allow them to grow and
+        sell marijuana. One person is allowed to hold up to 30g of marijuana.
+        The required age differs between states, from 18 or 19 years old.
+      notes:
+        - word for Canada regions? probably not states
+
+    - original: |
+        アメリカでも首都ワシントンやカリフォルニア州など９つの州で、大麻を持つことができます。しかし、大麻が禁止されていない国は、南アメリカにあるウルグアイだけでした。
+      translation: |
+        In America, the capital Washington DC and the state of California among
+        9 other states, have also allowed the carrying of marijuana. However,
+        the only country to not have banned marijuana is Uruguay in South
+        America.
+      notes:
+        - last sentence is confusing??
+
+    - original: |
+        カナダの政府は、犯罪グループが大麻を売るより、政府が許可した店で売るほうがいいと考えています。しかし、大麻は体に悪いと心配する人もいます。
+      translation: |
+        The Canadian government believes that rather than selling on the black
+        market, marijuana should be sold through government-approved stores.
+        However, there are some people who are worried that marijuana is bad for
+        health.
+      notes:
+        - 体に悪い -> bad for health, so body -> health. still unsure though
+
+    - original: |
+        日本では法律で、大麻を買ったり持ったりすることが禁止されています。カナダなどで買った大麻を日本に持ってきたり、郵便などで送ったりすることも禁止されています。
+      translation: |
+        In Japan, the law bans the buying and carrying of marijuana. Taking
+        marijuana bought in places like Canada back to Japan, or receiving it by
+        mail or similar, is also forbidden.

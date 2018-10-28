@@ -1,0 +1,22 @@
+languages:
+  en:
+    languageCode: en-GB
+    title: raehik's translations
+    description: Various JA->EN translations by a Japanese learner.
+  ja:
+    languageCode: ja
+    title: raehikの翻訳
+    description: 日本語が下手１つの学習者からいろいろな英訳
+
+baseURL: https://jp.raehik.net
+enableGitInfo: true
+theme: hugo-dusk
+#disableHugoGeneratorInject: true
+
+params:
+  author: Ben Orchard
+  copyright_holder: Ben Orchard
+  #copyright_license: N/A
+  asset_dir: static
+
+DefaultContentLanguage: en
