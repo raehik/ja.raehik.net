@@ -1,0 +1,18 @@
+<article class="post-preview">
+  <header>
+    <h2 class="title"><a href='{{ .Permalink }}'>{{ partial "translation-title.html" .Params }}</a></h2>
+    <div class="post-image">
+      <!-- TODO -->
+    </div>
+    <div class="meta">
+      <!-- TODO <time> it -->
+      {{ .Date.Format "Jan 2, 2006" }}・{{ .Params.media }}
+    </div>
+    {{ partial "tags.html" . }}
+  </header>
+
+  <div class="summary">
+    {{ .Params.translation.description }}
+    <a href='{{ .Permalink }}' class="rmore">Read more...</a>
+  </div>
+</article>

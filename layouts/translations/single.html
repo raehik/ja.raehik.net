@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+
+<script>
+var toggleDisplay = function(element) {
+    element.style.display = (element.style.display === 'none')?'block':'none';
+};
+var toggleNotes = function() {
+    document.querySelectorAll('td.paragraph-notes').forEach(toggleDisplay);
+}
+</script>
+
+<style>
+.paragraph-notes {
+    display: none;
+}
+</style>
+
+<article class="post">
+    <h1 class="title">{{ partial "translation-title.html" .Params }}</h1>
+    <div class="meta">
+      <p>Meta (TODO)</p>
+    </div>
+    {{ with .Params.general_notes }}
+    <div class="notes">
+      <h2>TL notes</h2>
+      <ul>
+        {{ range . }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    <div class="translation-paragraphs">
+      <button onclick="toggleNotes();">Show/hide notes</button>
+      <table>
+        {{ range .Params.paragraphs }}
+        <tr>
+          <td>{{ .original | markdownify }}</td>
+          <td>{{ .translation | markdownify }}</td>
+          {{ with .notes }}<td class="paragraph-notes"><ul>{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ul></td>{{ end }}
+        </tr>
+        {{ end }}
+      </table>
+    </div>
+    <!-- TODO: remember {{ .Content }} exists and may actually be useful -->
+    {{ partial "postfooter.html" . }}
+</article>
+
+{{ partial "footer.html" . }}

@@ -3,12 +3,15 @@ languages:
     languageCode: en-GB
     title: raehik's translations
     description: Various JA->EN translations by a Japanese learner.
+    weight: 1
   ja:
     languageCode: ja
     title: raehikの翻訳
     description: 日本語が下手１つの学習者からいろいろな英訳
+    weight: 2
+defaultContentLanguage: en
 
-baseURL: https://jp.raehik.net
+baseURL: https://ja.raehik.net
 enableGitInfo: true
 theme: hugo-dusk
 #disableHugoGeneratorInject: true
@@ -19,4 +22,6 @@ params:
   #copyright_license: N/A
   asset_dir: static
 
-DefaultContentLanguage: en
+taxonomies:
+  media: media
+  tag: tags

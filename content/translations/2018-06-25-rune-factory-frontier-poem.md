@@ -1,16 +1,16 @@
+---
 media: poem
 original:
-  lang: ja
+  language: ja
   source: ルーンファクトリー フロンティア
 translation:
-  lang: en-GB
+  language: en-GB
   source: "Rune Factory: Frontier"
-  title:
-  desc: "Short poem from Rune Factory: Frontier"
-  date: 2018-06-25
+  title: &entry_title
+  description: "A short poem spoken by クロス Kross in an early conversation in the Wii game Rune Factory: Frontier."
+  date: &entry_date 2018-06-25
   author: raehik
-general-notes:
-  - "A poem spoken by クロス Kross in an early conversation in the Wii game Rune Factory: Frontier."
+general_notes:
   - No title given in-game.
   - Intended as simple poetry, translated as such (with consideration towards
     clause placement and sentence structure).
@@ -29,3 +29,8 @@ paragraphs:
     translation: |
       I had thought that kid would always be here  
       but everyone's gone...
+
+# Hugo
+date: *entry_date
+title: *entry_title
+---

@@ -1,17 +1,18 @@
-type: song
+---
+media: song
 original:
-  lang: ja
-  source: ビブリボン
+  language: ja
+  source: ビブリボン（PS1）
   title: 遊び方
   date: 1999
-  desc: チュートリアルより曲
+  description: リブリボンのチュートリアル曲（遊び方を説明する）
 translation:
   author: raehik
-  date: 2018-09-12
-  lang: en-GB
-  source: Vib Ribbon
-  title: How to play / Tutorial
-  desc: Tutorial song describing how to play
+  date: &entry_date 2018-09-12
+  language: en-GB
+  source: Vib Ribbon (PS1)
+  title: &entry_title How to play / Tutorial
+  description: Vib Ribbon's tutorial song, describing how to play
 general-notes:
   - transcribed and translated by me (raehik)
   - the game uses katakana only -- I transcribed it into medium-high kanji heavy
@@ -29,16 +30,16 @@ paragraphs:
       Woah!
 
   - original: |
-      危なかった
-      ビブリボンは
+      危なかった  
+      ビブリボンは  
       音から生まれた「ピース」に合わせて正しいボタンを押すゲームなんだ
     translation: |
       That was close!  
       Vib Ribbon is a game where  
       You press the correct buttons in time with "pieces" made from the music
     notes:
-      - "Vib Ribbon is a game where": tricky bit, mostly good as long as sounds
-        good in English to others
+      - "\"Vib Ribbon is a game where\": tricky bit, mostly good as long as
+        sounds good in English to others"
 
   - original: |
       キャー！  
@@ -56,8 +57,8 @@ paragraphs:
       Vib Ribbon only uses 4 buttons --  
       Easy peasy!
     notes:
-      - "But don't worry": added in "don't worry", think it's better in EN, but
-        now the line is too long
+      - "\"But don't worry\": added in \"don't worry\", think it's better in EN,
+        but now the line is too long"
       - Wanted to say "Simple and clean!" for 簡単簡単 lol
 
   - original: |
@@ -122,7 +123,8 @@ paragraphs:
       What's this piece?  
       Hold on a second!
     notes:
-      - "Oh? What's this piece?" ありゃりゃ can't think of better EN than "oh"
+      - "\"Oh? What's this piece?\" ありゃりゃ can't think of better EN than
+        \"oh\""
 
   - original: |
       これは壁と穴のミックスだから  
@@ -154,3 +156,8 @@ paragraphs:
       Let's start!
     notes:
       - end part is now awful because I made it match the lines LOL
+
+# Hugo
+date: *entry_date
+title: *entry_title
+---

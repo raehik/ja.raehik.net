@@ -1,16 +1,19 @@
+---
+media: news-article
 original:
-  lang: ja
+  language: ja
   source: NHK NEWS WEB EASY
   url: "https://www3.nhk.or.jp/news/easy/k10011673161000/k10011673161000.html"
   title: 旅行に来た外国人のため地震のとき役に立つパンフレット
-  desc:
-  date: 2018-10-17T11:30+0900
+  description:
+  date: 2018-10-17T11:30+09:00
   author:
 translation:
-  lang: en-GB
-  title: Handy pamphlet about earthquakes prepared for foreign tourists
-  desc:
-  date: 2018-10-19T21:21:07+0200
+  language: en-GB
+  source: NHK NEWS WEB EASY
+  title: &entry_title Handy pamphlet about earthquakes prepared for foreign tourists
+  description:
+  date: &entry_date 2018-10-19T21:21:07+02:00
   author: raehik
 general-notes:
   - title sounds great in EN but it's very liberal
@@ -50,3 +53,8 @@ paragraphs:
     translation: |
       The pamphlet is available from information bureaus in places such as
       Kansai Airport and JR Osaka Station.
+
+# Hugo
+date: *entry_date
+title: *entry_title
+---
