@@ -1,0 +1,38 @@
+# (req.): required
+# (exp.): expected (very common, but not required)
+# (opt.): optional
+#
+# if no title, base entry title on source+date
+
+media: poem | song | news-article
+original:
+  title: (req.) my title for entry in original:lang
+  language: (req.) ja (BCP 47)
+  source: (req.) source name in original:lang
+  content_title: (exp.) provided title in original:lang
+  date: (exp.) date created in RFC 3339. if empty -> unknown
+  description: (opt.) existing or personally added description in original:lang
+  author: (opt.) if missing -> unknown
+translation:
+  title: (req.) my title for entry in translation:lang
+  author: (req.) raehik
+  date: (req.) date translated in RFC 3339
+  language: (req.) en-GB (BCP 47)
+  source: (req.) source name in translation:lang
+  content_title: (exp.) provided title in translation:lang -- iff original:title
+  description: (req.) personally added desc in original:lang (used in blog)
+general_notes:
+  - ordered notes about original and translation
+  - should apply to many/all paragraphs, or the original/translation as a whole
+paragraphs:
+  - original: |
+      original (Markdown)
+    translation: |
+      translation (Markdown)
+    notes:
+      - TL notes, relating to bits in this paragraph
+      - if you find yourself repeating yourself (lol), consider general_notes
+  - original: |
+      etc...
+    translation: |
+      etc...

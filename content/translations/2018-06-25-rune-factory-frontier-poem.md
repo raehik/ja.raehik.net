@@ -1,15 +1,17 @@
 ---
 media: poem
 original:
+  title: 短い詩
   language: ja
   source: ルーンファクトリー フロンティア
+  description: クロスが言った短い詩。Wiiのルーンファクトリー フロンティアより。
 translation:
+  author: raehik
+  title: Short sad poem
   language: en-GB
   source: "Rune Factory: Frontier"
-  title: &entry_title
   description: "A short poem spoken by クロス Kross in an early conversation in the Wii game Rune Factory: Frontier."
   date: &entry_date 2018-06-25
-  author: raehik
 general_notes:
   - No title given in-game.
   - Intended as simple poetry, translated as such (with consideration towards
@@ -32,5 +34,4 @@ paragraphs:
 
 # Hugo
 date: *entry_date
-title: *entry_title
 ---

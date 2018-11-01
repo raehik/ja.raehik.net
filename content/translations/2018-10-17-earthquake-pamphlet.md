@@ -4,18 +4,18 @@ original:
   language: ja
   source: NHK NEWS WEB EASY
   url: "https://www3.nhk.or.jp/news/easy/k10011673161000/k10011673161000.html"
-  title: 旅行に来た外国人のため地震のとき役に立つパンフレット
-  description:
+  content_title: 旅行に来た外国人のため地震のとき役に立つパンフレット
+  title: 外国人のため地震情報パンフレット
   date: 2018-10-17T11:30+09:00
-  author:
 translation:
+  author: raehik
   language: en-GB
   source: NHK NEWS WEB EASY
-  title: &entry_title Handy pamphlet about earthquakes prepared for foreign tourists
+  content_title: Handy pamphlet about earthquakes prepared for foreign tourists
+  title: Earthquake pamphlet for foreign tourists
   description:
   date: &entry_date 2018-10-19T21:21:07+02:00
-  author: raehik
-general-notes:
+general_notes:
   - title sounds great in EN but it's very liberal
 paragraphs:
   - original: |
@@ -56,5 +56,4 @@ paragraphs:
 
 # Hugo
 date: *entry_date
-title: *entry_title
 ---

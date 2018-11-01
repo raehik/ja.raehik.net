@@ -17,9 +17,30 @@ var toggleNotes = function() {
 
 <article class="post">
     <h1 class="title">{{ partial "translation-title.html" .Params }}</h1>
+
     <div class="meta">
-      <p>Meta (TODO)</p>
+      <ul>
+{{ with .Params.translation.date }}
+        <li>Translation date: {{ . }}</li>
+{{ end }}
+{{ with .Params.original.date }}
+        <li>Date of original: {{ . }}</li>
+{{ end }}
+{{ with .Params.translation.source }}
+        <li>Source (EN): {{ . }}</li>
+{{ end }}
+{{ with .Params.original.source }}
+        <li>Source (JP): {{ . }}</li>
+{{ end }}
+{{ with .Params.translation.description }}
+        <li>Description: {{ . }}</li>
+{{ end }}
+{{ with .Params.original.description }}
+        <li>Description: {{ . }}</li>
+{{ end }}
+      </ul>
     </div>
+
     {{ with .Params.general_notes }}
     <div class="notes">
       <h2>TL notes</h2>
@@ -30,9 +51,22 @@ var toggleNotes = function() {
       </ul>
     </div>
     {{ end }}
+
     <div class="translation-paragraphs">
       <button onclick="toggleNotes();">Show/hide notes</button>
       <table>
+        <tr>
+        {{ with .Params.original.content_title }}
+            <th>{{ . }}</th>
+        {{ else }}
+            <th>タイトルがない</th>
+        {{ end }}
+        {{ with .Params.translation.content_title }}
+            <th>{{ . }}</th>
+        {{ else }}
+            <th>no title</th>
+        {{ end }}
+        </tr>
         {{ range .Params.paragraphs }}
         <tr>
           <td>{{ .original | markdownify }}</td>

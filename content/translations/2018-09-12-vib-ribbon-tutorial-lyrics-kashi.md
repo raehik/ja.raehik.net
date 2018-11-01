@@ -11,9 +11,9 @@ translation:
   date: &entry_date 2018-09-12
   language: en-GB
   source: Vib Ribbon (PS1)
-  title: &entry_title How to play / Tutorial
+  title: How to play / Tutorial
   description: Vib Ribbon's tutorial song, describing how to play
-general-notes:
+general_notes:
   - transcribed and translated by me (raehik)
   - the game uses katakana only -- I transcribed it into medium-high kanji heavy
   - the official translation may be better and worse in places. e.g. perhaps the
@@ -159,5 +159,4 @@ paragraphs:
 
 # Hugo
 date: *entry_date
-title: *entry_title
 ---
